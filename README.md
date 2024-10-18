@@ -83,7 +83,36 @@ The app includes unit tests for OTP generation and Firestore validation (details
 - **Security:** Ensures data privacy with OTP-based authentication.
 - **Scalability:** Easy to scale with Firebase Firestore backend.
 
+## Screensort :  
+https://github.com/user-attachments/assets/3caaf07c-bc3d-44aa-b626-c94cec44249f
+https://github.com/user-attachments/assets/4953fa05-1f89-478b-92f5-e9c44d046492
+https://github.com/user-attachments/assets/23cd0fa6-a89c-4220-8b14-c3e753d79d71
+https://github.com/user-attachments/assets/eb86e21c-60c0-4c9a-bc49-8e56b9e22da4
+https://github.com/user-attachments/assets/80f90add-0c8f-4aba-8bd1-5b8ba95a3868
+https://github.com/user-attachments/assets/5de4e42f-739a-4c71-8f09-7b992235944c
+https://github.com/user-attachments/assets/39cc22d7-3c4e-40e1-bbe3-313bf50692d8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Video of the app 
+
 https://github.com/user-attachments/assets/6fc057e4-dbbb-4e78-a2b2-6345194b90a1
 
 
