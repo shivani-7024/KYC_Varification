@@ -4,7 +4,9 @@ A mobile app that automates the document verification process using Firestore an
 
 ## Features
 
-- **Document Verification:** Enter document numbers for validation with Firestore.
+- **Document Verifica
+
+tion:** Enter document numbers for validation with Firestore.
 - **OTP Authentication:** Secure email-based OTP system to verify the user.
 - **Firestore Integration:** Real-time data fetching from Firestore to validate documents.
 - **Email Integration:** Uses JavaMail API to send OTPs to users for verification.
@@ -80,6 +82,9 @@ The app includes unit tests for OTP generation and Firestore validation (details
 - **Efficiency:** Automates the KYC process, reducing manual verification efforts.
 - **Security:** Ensures data privacy with OTP-based authentication.
 - **Scalability:** Easy to scale with Firebase Firestore backend.
+
+## Video of the app 
+https://github.com/user-attachments/assets/6fc057e4-dbbb-4e78-a2b2-6345194b90a1
 
 
 
