@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249400135822",
+    "project_id": "kyc-verification-241a1",
+    "storage_bucket": "kyc-verification-241a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249400135822:android:6c5d6f01de2764cf71b9df",
+        "android_client_info": {
+          "package_name": "com.example.kycvarification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSCyOUVGbwn-t_pwbkoc3Y-eSJs__fqYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".KycRegistrationActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/green"/>
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="KYC Verification"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/dark_blue"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/logout"
+            android:layout_gravity="right"
+            android:rotation="180"
+            android:src="@drawable/logout"/>
+
+    </Toolbar>
+
+
+    <Spinner
+        android:id="@+id/document_type_spinner"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etDocumentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Document Number"
+        android:textColorHint="@color/grey"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnVerifyDocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Document"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Step 2: OTP Verification -->
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:visibility="gone"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnVerifyOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify OTP"
+        android:visibility="gone"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Step 3: KYC Complete -->
+    <TextView
+        android:id="@+id/tvKycStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KYC Verification Complete!"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:id="@+id/cardView"
+        android:visibility="gone"
+        android:elevation="7dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/tvUserDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
